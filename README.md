@@ -68,4 +68,12 @@ Over-reliance on certain modal verbs (e.g., 'can').
 
 # References
 
+https://huggingface.co/Helsinki-NLP
+
+https://colab.google
+
+https://github.com/briacp/omegat-plugin-fake-mt
+
+
+
 Rosa, R. (2016). Czech and English abstracts of ÚFAL papers. LINDAT/CLARIAH-CZ digital library at the Institute of Formal and Applied Linguistics (ÚFAL), Faculty of Mathematics and Physics, Charles University, http://hdl.handle.net/11234/1-1731.
