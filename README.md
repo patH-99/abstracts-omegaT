@@ -68,5 +68,4 @@ Over-reliance on certain modal verbs (e.g., 'can').
 
 # References
 
-Rosa, R. (2016). Czech and English abstracts of ÚFAL papers. LINDAT/CLARIAH-CZ digital library at the Institute of Formal and Applied Linguistics (ÚFAL), Faculty of Mathematics and Physics, Charles University, Link to Corpus.
-
+Rosa, R. (2016). Czech and English abstracts of ÚFAL papers. LINDAT/CLARIAH-CZ digital library at the Institute of Formal and Applied Linguistics (ÚFAL), Faculty of Mathematics and Physics, Charles University, http://hdl.handle.net/11234/1-1731.
