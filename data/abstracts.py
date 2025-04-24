@@ -3,7 +3,7 @@ import json
 input_file = '/Users/patrikhrabanek/Downloads/corpus.jsonl'
 output_file = 'abstracts.tmx'
 
-# Initialize the TMX file format
+# Initializing the TMX file format
 tmx_header = """<?xml version="1.0" encoding="UTF-8"?>
 <tmx version="1.4">
   <header creationtool="Python Script" creationtoolversion="1.0" datatype="PlainText" segtype="sentence" o-tmf="XML" adminlang="en" srclang="cs"/>
@@ -15,7 +15,7 @@ tmx_footer = """
 </tmx>
 """
 
-# Open the JSONL file and start extracting the text
+# Opening the JSONL file and start extracting the text
 with open(input_file, 'r', encoding='utf-8') as infile, open(output_file, 'w', encoding='utf-8') as outfile:
     outfile.write(tmx_header)
 
@@ -24,7 +24,7 @@ with open(input_file, 'r', encoding='utf-8') as infile, open(output_file, 'w', e
         source_text = data['abstract_cs'].strip()  # Czech text
         target_text = data['abstract_en'].strip()  # English text
 
-        # Create TMX segment entry
+        # Creating the TMX segment entry
         tmx_entry = f"""
         <tu>
             <tuv xml:lang="cs">
