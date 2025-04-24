@@ -5,7 +5,7 @@ app = Flask(__name__)
 
 
 # Load MarianMT model
-model_name = "/Users/patrikhrabanek/PycharmProjects/cooking/czech_model"  # Change this to your model
+model_name = "your_path_to_model"
 model = MarianMTModel.from_pretrained(model_name)
 tokenizer = MarianTokenizer.from_pretrained(model_name)
 
@@ -16,7 +16,7 @@ def translate():
     target_lang = request.args.get("target", "")  # Target language
 
     if not source_text:
-        return jsonify({"error": "No text provided"}), 400
+        return jsonify({"error": "No text."}), 400
 
     inputs = tokenizer(source_text, return_tensors="pt", padding=True)
     outputs = model.generate(**inputs)
